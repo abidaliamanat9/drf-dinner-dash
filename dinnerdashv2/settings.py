@@ -138,7 +138,7 @@ REST_AUTH = {
         'USE_JWT': True,
         'SESSION_LOGIN':False,
         'JWT_AUTH_HTTPONLY':False,
-        'REGISTER_SERIALIZER':'authentication.serializers.CustomRegisterSerializer'
+        'REGISTER_SERIALIZER':'authentication.serializer.CustomRegisterSerializer'
 }
 
 REST_FRAMEWORK={
